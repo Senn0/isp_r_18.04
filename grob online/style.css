@@ -1,14 +1,14 @@
 body {
     font-family: Arial, sans-serif;
     margin-left: 20%;
-    margin-right: 10%;
+    margin-right: 20%;
     margin-top: 0%;
 }
 
 h1 {
     font-family: 'sans-serif';
     font-style: normal;
-    font-size: 40px;
+    font-size: 250%;
     color: #252B31;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
@@ -24,7 +24,7 @@ h2 {
 p {
     font-family: 'Arial';
     font-style: normal;
-    font-size: 20px;
+    font-size: 150%;
     color: #252B31;
 }
 
@@ -105,7 +105,7 @@ p {
         /*Первый экран*/
 #FirstScreen {
     position: relative;
-    width: 1200px;
+    width: 110%;
     height: 835px;
     background: #F6FAFB;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.45);
@@ -114,25 +114,26 @@ p {
 #FirstScreen p {
     font-family: 'Arial';
     font-style: normal;
-    font-size: 22px;
+    font-size: 150%;
     color: #5E6668;
     text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 }
 
     .greeting {
         position: absolute;
-        width: 530px;
-        margin-left: 110px;
-        margin-top: 170px;
+        width: 42%;
+        left: 10%;
+        top: 25%;
     }
 
     .button{
         background-color: #7BA165;
         position: absolute;
-        width: 350px;
-        height: 80px;
-        margin-left: 180px;
-        margin-top: 350px;
+        width: 27%;
+        height: 10%;
+        left: 15%;
+        top: 35%;
+        margin-top: 10%;
         text-align: center;
         padding-top: 2%;
         background: #7BA165;
@@ -148,16 +149,15 @@ p {
 
     .GreetingImage {
         position: absolute;
-        margin-left: 660px;
-        margin-top: 80px;
+        left: 55%;
+        top: 10%;
     }
 
         /*Второй экран*/
 #SecondScreen {
     position: relative;
-    width: 1200px;
+    width: 110%;
     height: 950px;
-    top: -30px;
     background: #9CA5A7;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.45), inset 0px 15px 25px rgba(0, 0, 0, 0.25);
 }
@@ -166,68 +166,68 @@ p {
         text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
     }
 
-    #SecondScreen a {
-        
-    }
-
     .AboutCompany {
         position: absolute;
-        width: 540px;
+        width: 45%;
         height: 330px;
-        margin-left: 60px;
-        margin-top: 60px;
+        left: 5%;
+        top: 7%;
         background: #F6FAFB;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
-        padding-top: 20px;
-        padding-left: 25px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 3%;
+        padding-right: 3%;
     }
     
     .AboutServices {
         position: absolute;
-        width: 470px;
+        width: 40%;
         height: 330px;
-        margin-left: 660px;
-        margin-top: 60px;
+        left: 55%;
+        top: 7%;
         background: #F6FAFB;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
-        padding-top: 20px;
-        padding-left: 25px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 3%;
+        padding-right: 3%;
     }
 
         .more {
             position: absolute;
-            width: 100px;
-            height: 60px;
-            top: 280px;
+            top: 85%;
         }
     
     .example {
         position: absolute;
-        width: 1070px;
+        width: 90%;
         height: 430px;
-        margin-left: 60px;
-        margin-top: 440px;
+        left: 5%;
+        top: 47%;
         background: #F6FAFB;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
-        padding-top: 20px;
-        padding-left: 25px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 3%;
+        padding-right: 3%;
     }
     .FirstExample {
         position: absolute;
-        margin-left: 5px;
-        top: 80px;
+        left: -27%;
+        top: 20%;
         text-align: center;
     }
 
     .FirstSeparator {
         position: absolute;
-        width: 300px;
-        height: 0px;
-        left: 205px;
-        top: 220px;
+        width: 27%;
+        height: 0%;
+        left: 19.5%;
+        top: 52%;
         border: 2px solid rgba(37, 43, 49, 0.8);
         transform: rotate(90deg);
         background-color: #252B31;
@@ -235,17 +235,17 @@ p {
 
     .SecondExample {
         position: absolute;
-        left: 380px;
-        top: 80px;
+        left: 36.5%;
+        top: 20%;
         text-align: center;
     }
     
     .SecondSeparator {
         position: absolute;
-        width: 300px;
-        height: 0px;
-        left: 557px;
-        top: 220px;
+        width: 27%;
+        height: 0%;
+        left: 53%;
+        top: 52%;
         border: 2px solid rgba(37, 43, 49, 0.8);
         transform: rotate(90deg);
         background-color: #252B31;
@@ -253,8 +253,8 @@ p {
 
     .ThirdExample {
         position: absolute;
-        left: 735px;
-        top: 80px;
+        left: 70%;
+        top: 20%;
         text-align: center;
     }
 
